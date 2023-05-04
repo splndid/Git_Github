@@ -1,0 +1,41 @@
+1) mkdir story
+2) touch chapter1.txt chapter2.txt chapter3.txt
+
+3) vim chapter1.txt
+   commands for vim:
+        Open a file: vim [filename]
+        Exit Vim: Esc -> :q or Esc -> :q! (force exit without saving)
+        Save a file: Esc -> :w or :w [filename] or :w /path/to/newfile
+        Move cursor: arrow keys or h, j, k, l
+        Edit text: i to insert, x to delete, u to undo
+
+4) git init
+5) ls -a
+        list all files and directories in a directory, including hidden files and directories.
+        By default, the ls command only lists non-hidden files and directories. Hidden files and 
+        directories in Unix-based systems are denoted by a dot (.) before the filename, and 
+        they are typically used for configuration files or files that are not meant to be viewed or modified by users.
+        The -a option with ls stands for "all" and tells the command to show all files, including hidden ones. 
+        So, running ls -a will display a list of all files and directories in the current directory, 
+        including those that are normally hidden.
+
+        Note that when using ls -a, you will often see two additional directories: '.' 
+        and '..', . refers to the current directory, and .. refers to the parent directory.
+
+6) git status
+        git status is a command used in Git to show the current status of the repository.
+        displays information about the state of the working directory and the staging area (also called the index).
+        It tells you which branch you're on, which files have been modified or added, and which files are staged or 
+        unstaged for the next commit.
+
+7) 'git add .' it add all files.
+8) git commit -m "complete chapter 1"
+9) git log       
+        git log is a command used in Git to display a log of the commit history of a repository.
+        commit f9c5a4cee36bc7658cfb9b9e566237bd4dfaf901 (HEAD -> master) (this hash-f9c5a4cee36bc7658cfb9b9e566237bd4dfaf901 uniquely identifies the commit)
+        Author: splndid <splndzy@gmail.com>
+        Date:   Thu May 4 09:27:14 2023 +0530
+
+            first commit
+
+10)
