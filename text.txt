@@ -49,3 +49,8 @@
         git diff is a command used to compare the changes between two versions of a file or directory in a Git repository.
 
         eg., git diff chapter2.txt.
+
+12) git checkout
+        is a command used in Git to switch between branches or to restore files to a previous state.
+
+        eg., git checkout chapter2.txt.
