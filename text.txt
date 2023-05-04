@@ -28,7 +28,9 @@
         It tells you which branch you're on, which files have been modified or added, and which files are staged or 
         unstaged for the next commit.
 
-7) 'git add .' it add all files.
+7) 'git add .' 
+        is a command used in Git to stage all changes in the current directory and its subdirectories for the next commit.
+
 8) git commit -m "complete chapter 1"
 9) git log       
         git log is a command used in Git to display a log of the commit history of a repository.
@@ -38,4 +40,12 @@
 
             first commit
 
-10)
+10) Summary:
+    Working directory
+    Staging area
+    Local Repository
+
+11) git diff 
+        git diff is a command used to compare the changes between two versions of a file or directory in a Git repository.
+
+        eg., git diff chapter2.txt.
