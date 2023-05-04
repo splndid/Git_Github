@@ -1,3 +1,4 @@
+//Local Repository part (1-12)
 1) mkdir story
 2) touch chapter1.txt chapter2.txt chapter3.txt
 
@@ -54,3 +55,21 @@
         is a command used in Git to switch between branches or to restore files to a previous state.
 
         eg., git checkout chapter2.txt.
+
+
+
+//Remote repository part.
+13) create and sign in github account.
+        Create a new repository.
+        git remote add origin "here comes remote repository url" (origin can be named anything but its recommended to keep it as it is).
+        git push -u origin master (master is the branch)
+
+14) gitignore
+.DS_Store | hidden file. its a setting.
+ls -a | shows hidden files.
+
+create hidden file
+touch .gitignore
+
+to remove every committed files
+git rm --cached -r | 'r' stands for recursive.
