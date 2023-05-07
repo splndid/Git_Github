@@ -78,13 +78,25 @@ Steps to push an existing repository from the command line.
         git remote add origin "here comes remote repository url" (origin can be named anything but its recommended to keep it as it is).
         git push -u origin master (master is the branch)
 
-14) gitignore
+
+14) To check all the commits go to insights and click network.
+
+15) Local Repository.
+Consist of Timeline of various commits or savepoints. This is called master branch.
+
+16) All steps -
+        working directory
+        Staging area
+        Local Repository - known as '.git'
+        Remote Repository - known as 'github'
+
+
+17) gitignore
 .DS_Store | hidden file. its a setting.
 ls -a | shows hidden files.
 
-15)create hidden file
+18)create hidden file
 touch .gitignore
 
-16) To remove every committed files
+19) To remove every committed files
 git rm --cached -r | 'r' stands for recursive.
-
