@@ -107,3 +107,15 @@ for example - #pod files or
 
 21) Collection of gitignore templates
         https://github.com/github/gitignore
+
+
+22) cloning projects in github
+eg., git clone https://github.com/austinzheng/swift-2048.git
+
+23) To create a branch
+        git branch alien-plot ('alien-plot' is the name of the branch)
+
+24) To list all the branch
+        git branch
+        
+         
