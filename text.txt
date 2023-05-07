@@ -100,3 +100,10 @@ touch .gitignore
 
 19) To remove every committed files
 git rm --cached -r | 'r' stands for recursive.
+
+20) We can comment in gitignore by using pound sign or wild cards repectively.
+for example - #pod files or 
+              *.txt (all of the files with .txt extension will be ignored.)
+
+21) Collection of gitignore templates
+        https://github.com/github/gitignore
